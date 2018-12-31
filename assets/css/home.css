@@ -1,0 +1,170 @@
+#nav-1 {
+    position: relative;
+}
+
+.navbar-brand img {
+    height: 0;
+    width: auto;
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+    height: 50vw;
+    background-image: url('../images/banner-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.message {
+    position: absolute;
+    right: 7.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: var(--font-3);
+}
+
+.message .smaller {
+    font-size: 1.25rem;
+    text-transform: none;
+}
+
+.message a {
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    border: 1px solid #000;
+    transition: 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 1px #333;
+}
+
+.message a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+    /* letter-spacing: 2px; */
+    /* border-radius: 5px; */
+    box-shadow: 0 0 0 0 #333;
+}
+
+.banner-content {
+    position: relative;
+    width: 100%;
+    background-image: url('../images/texture-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.banner-content .left {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.banner-content .left .text-small {
+    font-size: 2rem;
+}
+
+.banner-content .left .text-large {
+    font-size: 3rem;
+}
+
+
+
+.section {
+    position: relative;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.line {
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: #000;
+    left: 50%;
+    top: 1.7rem;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.section h2 {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0.5rem 2.5rem;
+    z-index: 2;
+}
+
+.section .content {
+    padding-top: 2rem;
+}
+
+.section .content .details {
+    padding: 1rem 0 1.5rem 0;
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+}
+
+.section .content .details .smaller {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 1rem;
+}
+
+
+/********  CAROUSEL  ********/
+
+.my-carousel {
+    position: relative;
+    width: 100%;
+    text-align: right;
+}
+
+.my-carousel ul.indicators {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 0.75rem;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.my-carousel ul.indicators li {
+    height: 0.9rem;
+    width: 0.9rem;
+    margin: 1rem 0;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.my-carousel ul.indicators li.active {
+    background-color: #000;
+}
+
+.my-carousel .img-container {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.my-carousel .img-container img {
+    width: 100%;
+    height: auto;
+}
+
+/********  MAP  ********/
+
+#map {
+    height: 25rem;
+    margin-top: 2rem;
+}
